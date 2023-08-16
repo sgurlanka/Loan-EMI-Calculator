@@ -6,6 +6,14 @@ package com.sg.tools.emi.svc;
  */
 public class EmiComputation {
 
+    /**
+     * This method is used to calculate Monthy EMI.
+     * @param principal
+     * @param rateOfInt
+     * @param time
+     * @param isTimeInyears
+     * @return
+     */
     public static long monthlyEmi(final double principal, final Double rateOfInt, 
             long time, final boolean isTimeInyears) {
         if (isTimeInyears) {
